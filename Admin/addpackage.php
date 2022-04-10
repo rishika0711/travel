@@ -45,7 +45,7 @@ if($_SESSION['loginstatus']=="")
 
 
 
-<form method="post" enctype="multipart/form-data">
+<form method="post" enctype="multipart/form-data" background-color="purple" class="form">
 <table border="0" width="400px" height="450px" align="center" class="tableshadow">
 <tr><td colspan="2" class="toptd">Add Package</td></tr>
 <tr><td class="lefttxt">Package Name</td><td><input type="text" name="t1" required pattern="[a-zA-z _]{3,50}" title"Please Enter Only Characters between 3 to 50 for Package Name" /></td></tr>
